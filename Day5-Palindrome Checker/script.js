@@ -4,7 +4,6 @@ let word = document.querySelector(".word");
 
 //function
 function isPalindrome() {
-  console.log("basarili");
   let checkWord = word.value.split("").reverse().join("");
 
   if (word.value === "") {
